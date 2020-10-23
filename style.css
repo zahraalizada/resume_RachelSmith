@@ -1,0 +1,127 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+@font-face {
+	font-family:'Open Sans Condensed';
+	src: url(fonts/open_sans_condensed-webfont.eot);
+	src: local('Open Sans Condensed'),  
+		 url('fonts/open_sans_condensed-webfont.woff') format('woff'),  
+		 url('fonts/open_sans_condensed-webfont.ttf') format('truetype'),
+		 url('fonts/open_sans_condensed-webfont.svg#Open Sans Condensed') format('svg');
+		 
+}
+
+
+.all{width: 100%; height: auto;background: #eff6fc}
+.header{width: 100%; height: 100px; display: flex; position: sticky; top:0px;background-color:#eff6fc; z-index: 1 }
+	.name{width:50%; height: 100px;  }
+	.name a{display: block; font: 30px "Square721 BT"; text-decoration: none;color: #004578; margin: 30px 0 0 30px}
+	nav {padding: 5px 20px; width:50%; }
+	nav ul{list-style-type: none;}
+	.menu{display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+	.menu li {margin:30px 0 0 0; font: 16px "Square721 BT" }
+	.menu li a{display: block;text-decoration: none;color: #004578}
+	.menu li a:hover {text-decoration:underline;}
+
+	
+.section{width: 100%; height: auto;background: #eff6fc;}
+	.section1{width:40%; height:500px;display: flex; background:url(images/background2.jpg) center ;padding: 80px 30% 0;}
+			
+	.section2 {display: flex; flex-direction: column;  width: 100%; height:400px; background: #dadcdb; align-items: center;}
+		.social{display: block;width: 665px; height:50px;background:#004578; margin:0 0 80px 60px;}
+		.section2 p{display: block; width: 800px;  text-align:center;font:22px "Square721 BT";letter-spacing: 1px; color: #004578;margin: 0 0 0 100px}
+		.section2 span{display: block; width: 800px; text-align: center;font:28px "Square721 BT";letter-spacing: 1px; color: #004578;margin:0 0 0 0}
+
+	.section3 {width: 100%; height: 600px;}
+		.section3 h2 a{ display:flex; width: 100%; height: 100px; justify-content: center;align-items: center; font: 24px "Square721 BT";
+		 text-decoration: none;color: #004578;border:1px solid #dadcdb;}
+		.section3 h2 a:hover{text-decoration: underline;}
+		.left1{width: 50%; height:600px; float: left; }
+			.left1 p{display: block;font: 13px "Square721 BT";color: #004578;letter-spacing: 3px; text-align: right;margin: 110px 5% 0 0}
+			.left1 p span {display: block;font: 17px "Square721 BT";color: #004578; }
+		.right1{width: 50%; height:600px; float: left}
+			.right1 p{display: block; width:450px; height:50px; font: 13px "Square721 BT";color: #004578; text-align: left; margin: 110px 0 0 0}
+			.right1 p span {display: block;letter-spacing: 2px;font: 17px "Square721 BT";color: #004578}
+
+	.section4 {width: 100%; height: 800px;}
+		.section4 h2 a{ display:flex; width: 100%; height: 100px; justify-content: center;align-items: center; font: 24px "Square721 BT";
+		 text-decoration: none;color: #004578;border:1px solid #dadcdb; }
+		.section4 h2 a:hover{text-decoration: underline;}
+		.left2{width: 50%; height:600px; float: left; }
+			.left2 p{display: block;font: 13px "Square721 BT";color: #004578;letter-spacing: 3px; text-align: right;margin: 110px 5% 0 0}
+			.left2 p span {display: block;font: 17px "Square721 BT";color: #004578}
+		.right2{width: 50%; height:600px; float: left}
+			.right2 p{display: block; width:450px; height:50px; font: 13px "Square721 BT";color: #004578; text-align: left; margin: 110px 0 0 0}
+			.right2 p span {display: block;letter-spacing: 2px;font: 17px "Square721 BT";color: #004578}		
+
+	.section5 {width: 100%; height: 300px;}
+		.section5 h2 a{ display:flex; width: 100%; height: 100px; justify-content: center;align-items: center; font: 24px "Square721 BT";
+		 text-decoration: none;color: #004578;border:1px solid #dadcdb; }
+		.section5 h2 a:hover{text-decoration: underline;}
+		.clisocial {width: 100%; height: 200px; padding:;display: flex;justify-content: center; align-items: center}
+		.clisocial i {display: inline-block; color:#004578;opacity: 0.7; margin: 0 100px 0 0  }
+		.clisocial i:hover {opacity: 1 }
+
+	.section6 {width: 100%; height: 500px; background: url(images/background2.jpg ) center;}
+		.section6 h2 a{ display:flex;background:#004578; width: 100%; height: 100px; justify-content: center;align-items: center; font: 24px "Square721 BT";
+		 text-decoration: none;color: #fff;border:1px solid #dadcdb; }
+		.section6 h2 a:hover{ text-decoration: underline;}
+		.box{width: 50%; height: 360px; display: flex;align-items: center; flex-direction: column; padding-top: 40px;float: left;}
+		.box1{display: flex;align-items: center; width:450px; height:100px; background-color: #004578; opacity: 0.8; text-align: center;color:#fff;
+		 font:bold 14px "Square721 BT"; letter-spacing:2px; justify-content: center; margin: 0 0 20px 0}
+		 .boxbox{width: 50%; height: 360px; display: flex;align-items: center; flex-direction: column; padding-top: 40px; float: left;}
+		 .box2 {display: flex;align-items: center; width:450px; height:100px; background-color: #004578; opacity: 0.8; text-align: center;color:#fff;
+		 font:bold 14px "Square721 BT"; letter-spacing:2px;justify-content: center; margin: 0 0 20px 0}
+
+	.section7 {width: 100%; height: 300px;}
+		.section7 h2 a{width: 100%; display:flex; height: 100px; justify-content: center;align-items: center; font: 24px "Square721 BT";
+		 text-decoration: none;color: #004578;border:1px solid #dadcdb; }
+		.section7 h2 a:hover{text-decoration: underline;}
+			.section7 p{display: block;width: 300px; height:300px; float: left;font: 13px "Square721 BT";color: #004578; 
+			text-align: left; margin: 110px 0 0 150px}
+			.section7 p span {display: block;letter-spacing: 2px;font: 17px "Square721 BT";color: #004578}
+
+	.section8 {width: 100%; height: auto;}
+		.section8 h2 a{width: 100%; display:flex; height:100px; justify-content: center;align-items: center; font: 24px "Square721 BT";
+		 text-decoration: none;color: #004578;border:1px solid #dadcdb; }
+		.section8 h2 a:hover{text-decoration: underline;}
+		.tabcon{width:100%; height:auto;display: flex;flex-direction: row}
+			.table{width:50%; height: 500px;display: flex;align-items: center;justify-content: flex-end;}
+				.table form{width:500px;height:400px; }
+				.table form input#text1 {width:200px; height:30px;margin: 10px 10px 0; padding-left: 10px;}
+				.table form input#email {width:200px; height:30px;margin: 10px 0 0 0;  padding-left: 10px}
+				.table form p input#subject {width:427px; height:30px;margin:10px 10px 0; padding-left: 10px}
+				.table form textarea {width: 427px; height:170px;margin: 10px 10px 0;padding-left: 10px; resize: none;}
+				.table form input#submit{width:442px; height:40px;margin:10px 10px 0; padding-left: 10px; background-color:#004578;color:#fff;
+					border:1px solid #004578;cursor: pointer;}
+			.content{width:48%; height: 500px; padding-left: 2%; }
+				.content h2 {font:26px "Square721 BT";color: #004578; letter-spacing: 1px; line-height: 1cm; margin: 60px 0 0 0}
+				.content h3 {font:16px "Square721 BT";color: #004578; letter-spacing: 1px; margin: 0px 0 35px 0}
+				.content span {font: bold 14px "Square721 BT";color: #004578; letter-spacing: 1px;}
+				.content p {font:14px "Square721 BT";color: #004578; letter-spacing: 1px;margin: 0 0 35px 0}
+				.content a{ text-decoration: none; }
+				.content a:hover {color: red}
+				.consocial {display:block;width:40%; height:20px; border-top:1px solid #004578;opacity: 0.3	}
+				.content i {display: inline-block; color: #000;font-size: 20px; margin: 20px 20px 0 0  }
+				.content i:hover {cursor: pointer;font-size: 26px; color: #004578; }
+
+
+.footer{width: 100%; height: auto;background: #eff6fc;display: flex;justify-content: center;align-items: center;font:10px Square721 BT;}
